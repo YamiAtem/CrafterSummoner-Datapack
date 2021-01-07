@@ -1,0 +1,3 @@
+execute at @a[scores={summon=1..}, nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick", tag:{display:{Name:'{"text":"Summoner"}'}}}}] run function crafter:summon
+clear @a[scores={summon=1..}, nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick", tag:{display:{Name:'{"text":"Summoner"}'}}}, Inventory:[{id:"minecraft:carrot_on_a_stick", tag:{display:{Name:'{"text":"Summoner"}'}}}]}] carrot_on_a_stick{display:{Name:'{"text":"Summoner"}'}}
+scoreboard players set @a[scores={summon=1..}] summon 0

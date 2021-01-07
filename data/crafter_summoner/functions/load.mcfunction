@@ -1,0 +1,1 @@
+scoreboard objectives add summon used:carrot_on_a_stick
